@@ -40,7 +40,7 @@ Available styles::
     bold, faint, italic, underline, blink, overline, inverse
     conceal, strike
 
-.. admonition:: Note:
+.. warning::
 
     But don't count on these styles, your terminal may be not able to
     show all of them.

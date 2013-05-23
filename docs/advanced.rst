@@ -25,7 +25,7 @@ The :class:`colorize` function can paint 256 colors if your terminal supports 25
     text
 
 
-.. admonition:: Note:
+.. note::
 
     If your terminal can not show 256 colors, maybe you should change your terminal
     profile, claim that it supports 256 colors.
@@ -68,7 +68,7 @@ bold and underline styles, we could::
     >>> print s.red.green_bg.bold.underline
     text
 
-.. admonition:: Note:
+.. important::
 
     If you are colorizing non-ASCII charaters, and you are not on Python 3.
     Please do wrap the charaters with **u**::
