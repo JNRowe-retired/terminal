@@ -39,7 +39,7 @@ cases for them.
 Here are some tips to make things simple:
 
 * When you cloned this repo, run ``make``, it will prepare everything for you
-* Check the code style with ``make link``
+* Check the code style with ``make lint``
 * Check the test cases with ``make test``
 * Check test coverage with ``make coverage``
 

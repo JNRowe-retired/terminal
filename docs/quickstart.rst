@@ -49,8 +49,8 @@ Available styles::
 Verbose logging
 ---------------
 
-Terminal programs need a simple and beatiful logging system. If it has a
-verbose feature, it could helps a lot::
+Terminal programs need a simple and beautiful logging system. If it has a
+verbose feature, it could help a lot::
 
     >>> from terminal import log
 
@@ -97,7 +97,7 @@ We have :class:`terminal.confirm` and :class:`terminal.choose`.
 Command line
 ------------
 
-This is a replacement of **argparse** (or optparse).
+This is a replacement for **argparse** (or optparse).
 
 Create a simple command parser with :class:`Command`::
 

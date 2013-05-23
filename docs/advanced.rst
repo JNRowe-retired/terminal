@@ -12,7 +12,7 @@ Colorful Life
 -------------
 
 If you are not satisfied with 8-bit colors, we can have more.
-The :class:`colorize` function can pain 256 colors if your terminal supports 256 colors::
+The :class:`colorize` function can paint 256 colors if your terminal supports 256 colors::
 
     >>> from terminal import colorize
     >>> print colorize('text', 'red')        # color name
@@ -142,7 +142,7 @@ define the option yourself::
 .. _`commander.js`: https://github.com/visionmedia/commander.js
 
 
-The `arguments` paramter were added in 0.4.0, and it can be generated from a function::
+The `arguments` parameter were added in 0.4.0, and it can be generated from a function::
 
     @program.action
     def install(target):
@@ -153,7 +153,7 @@ The usage will be::
 
     $ pip install <target>
 
-If the `target` has a description, it will be q required option::
+If the `target` has a description, it will be a required option::
 
     @program.action
     def install(target):
@@ -203,7 +203,7 @@ description.
 Builtin Engines
 ---------------
 
-We do like colorful things, but we are to lazy to do any customization. The default
+We do like colorful things, but we are too lazy to do any customization. The default
 one is pretty enough, (if you don't think so, let's improve it).
 
 .. image:: _static/terminal.png
