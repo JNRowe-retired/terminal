@@ -70,7 +70,7 @@ Prompt communication
 --------------------
 
 Many terminal programs will communicate with the users, this could be easy
-with :class:`prompt`.
+with :func:`prompt`.
 
 Let's create a prompt to ask the user's name::
 
@@ -82,14 +82,14 @@ We could set a default name for the user::
 
     username = terminal.prompt('what is your name', 'Kate')
 
-It is not a good idea to get a password with :class:`prompt`, instead,
-terminal provided a :class:`password` for you::
+It is not a good idea to get a password with :func:`prompt`, instead,
+terminal provided a :func:`password` for you::
 
     password = terminal.password('what is your password')
 
 Want more on prompt?
 
-We have :class:`terminal.confirm` and :class:`terminal.choose`.
+We have :func:`terminal.confirm` and :func:`terminal.choose`.
 
 
 Command line
@@ -121,7 +121,7 @@ Save the code in a file (for example: foo.py), play in the terminal::
     $ python foo.py --output src
 
 However, when creating a terminal tool, a subcommand is usually needed, we can
-add subcommands via :class:`Command.action`::
+add subcommands via :meth:`Command.action`::
 
     program = Command('foo', 'a description')
     program.option('-v, --verbose', 'show more logs')

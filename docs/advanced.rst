@@ -10,7 +10,7 @@ Colorful Life
 -------------
 
 If you are not satisfied with 8-bit colors, we can have more.
-The :class:`colorize` function can paint 256 colors if your terminal supports 256 colors::
+The :func:`colorize` function can paint 256 colors if your terminal supports 256 colors::
 
     >>> from terminal import colorize
     >>> print colorize('text', 'red')        # color name
@@ -28,11 +28,11 @@ The :class:`colorize` function can paint 256 colors if your terminal supports 25
     If your terminal can not show 256 colors, maybe you should change your terminal
     profile, claim that it supports 256 colors.
 
-We can also paint the background of the text with colorize::
+We can also paint the background of the text with :func:`colorize`::
 
     >>> print colorize('text', 'ff0000', background=True)
 
-The source engine of :class:`colorize`, :class:`red`, :class:`cyan` and etc. is
+The source engine of :func:`colorize`, :func:`red`, :func:`cyan` and etc. is
 :class:`Color` object. Let's dig into it::
 
     >>> from terminal import Color
@@ -78,7 +78,7 @@ Decorator Command
 -----------------
 
 :class:`Command` is inspired by `commander.js`_, with the magic power of Python,
-we can do better. Let's have a look at the basic usage of Command::
+we can do better. Let's have a look at the basic usage of :class:`Command`::
 
     from terminal import Command
 
