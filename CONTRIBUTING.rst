@@ -5,9 +5,9 @@ First, please do contribute! There are more than one way to contribute, and I wi
 appreciate any way you choose.
 
 * introduce Terminal to your friends, let Terminal to be known
-* discuss Terminal, and submit bugs with github issues
+* discuss Terminal, and submit bugs with GitHub issues
 * improve documentation for Terminal
-* send patch with github pull request
+* send patch with GitHub pull request
 
 English and Chinese issues are acceptable, talk in your favorite language.
 
