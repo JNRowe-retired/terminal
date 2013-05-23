@@ -1,5 +1,3 @@
-.. _quickstart:
-
 Quickstart
 ==========
 
@@ -7,11 +5,11 @@ Quickstart
 
 Eager to get started? This page gives a good introduction in how to get started
 with Terminal. This assumes you already have Terminal installed. If you do not,
-head over to the :ref:`Installation <install>` section.
+head over to the :doc:`install` section.
 
 First, make sure that:
 
-* Terminal is :ref:`installed <install>`
+* Terminal is :doc:`installed <install>`
 
 
 Let's get started with some simple examples.
@@ -146,4 +144,4 @@ Let's play with the more complex one::
 
 -----------------------------
 
-Ready for more? Check out the :ref:`advanced <advanced>` section.
+Ready for more? Check out the :doc:`advanced` section.
