@@ -140,7 +140,7 @@ define the option yourself::
 .. _`commander.js`: https://github.com/visionmedia/commander.js
 
 
-The `arguments` parameter were added in 0.4.0, and it can be generated from a function::
+The ``arguments`` parameter was added in 0.4.0, and it can be generated from a function::
 
     @program.action
     def install(target):
@@ -151,7 +151,7 @@ The usage will be::
 
     $ pip install <target>
 
-If the `target` has a description, it will be a required option::
+If the ``target`` has a description, it will be a required option::
 
     @program.action
     def install(target):

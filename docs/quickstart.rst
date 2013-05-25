@@ -113,7 +113,7 @@ Let's make it work::
     if program.output:
        print program.output
 
-Save the code in a file (for example: foo.py), play in the terminal::
+Save the code in a file (for example :file:`foo.py`), play in the terminal::
 
     $ python foo.py -h
     $ python foo.py -o src
